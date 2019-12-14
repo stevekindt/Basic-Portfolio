@@ -1,4 +1,3 @@
-<!-- Content Goes Here -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,46 +8,48 @@
     <title>Contact</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<<body>
+
+<body>
     <!-- Header and Page Links-->
-    <header class="main-nav">
-        <div class="name">
-            <h1>Steve Kindt</h1>
+    <header id="mainhead">
+        <div class="container">
+            <a href="index.html" id="logo">Steve Kindt</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-        <ul class="nav">
-            <li class="links"><a href="index.html">About</a></li>
-            <li class="links"><a href="portfolio.html">Portfolio</a></li>
-            <li class="side links"><a href="#">Contact</a></li>
-        </ul>
     </header>
-    <div class="wrapper">
-        <div class="main-content-contact">
-            <div class="my-text-contact">
-                <h2 class="text-headline">Contact</h2>
-                <form>
-                    <fieldset>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="user_name" placeholder="John Smith">
 
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="user_email" placeholder="example@gmail.com">
+    <!-- Main Content of Contact -->
+    <div id="main-content" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+            <form>
+                
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="user_name" placeholder="John Smith">
 
-                        <label for="message">Message</label>
-                        <textarea id="message" name="user_message"></textarea>
-                    </fieldset>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="user_email" placeholder="example@gmail.com">
 
-                    <button type="submit">Submit</button>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="user_message"></textarea>
+                
 
-                </form>
-            </div>
-        </div>
+                <button type="submit">Submit</button>
+
+            </form>
+    </div>
+    </div>
     </div>
     <!-- Footer -->
-    <article>
-        <footer>
+    <footer>
+        <div class="container">
             <p>Copyright© 2019 Steve Kindt</p>
-        </footer>
-    </article>
-    </body>
+        </div>
+    </footer>
+</body>
 
 </html>
