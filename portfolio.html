@@ -11,63 +11,56 @@
 
 <body>
     <!-- Header and Page Links-->
-    <header class="main-nav">
-        <div class="name">
-            <h1>Steve Kindt</h1>
+    <header id="mainhead">
+        <div class="container">
+            <a href="index.html" id="logo">Steve Kindt</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-        <ul class="nav">
-            <li class="links"><a href="index.html">About</a></li>
-            <li class="links"><a href="#">Portfolio</a></li>
-            <li class="side links"><a href="contact.html">Contact</a></li>
-        </ul>
     </header>
 
-    <div class="wrapper">
-        <div class="main-content-port">
-
-            <div class="my-text-port">
-
-                <h2 class="text-headline">Portfolio</h2>
-                <!-- Pictures -->
-                <section class="banner">
-                    <img id="image" src="assets/images/cats.jpeg" alt="cat picture">
-                    <div id="text">
-                        <h4>Cute Cat Generator</h4>
-                    </div>
-                </section>
-                <section class="banner">
-                    <img id="image2" src="assets/images/exercise.jpeg" alt="exercise picture">
-                    <div id="text2">
-                        <h4>Exercise Planner</h4>
-                    </div>
-                </section>
-                <section class="banner">
-                    <img id="image3" src="assets/images/kangaroo.jpeg" alt="kangaroo picture">
-                    <div id="text3">
-                        <h4>Hop to It!</h4>
-                    </div>
-                </section>
-                <section class="banner">
-                    <img id="image4" src="assets/images/productivity.jpeg" alt="office work picture">
-                    <div id="text4">
-                        <h4>Productivity Tracker</h4>
-                    </div>
-                </section>
-                <section class="banner">
-                    <img id="image5" src="assets/images/travel.jpeg" alt="sydney opera house">
-                    <div id="text5">
-                        <h4>Travel Journal</h4>
-                    </div>
-                </section>
-
+    <!-- Main Content of Portfolio -->
+    <div id="main-content" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
+            <!-- Pictures -->
+            <div class="port">
+                <img src="assets/images/cats.jpeg" alt="cat picture">
+                <h2>Cute Cat Generator</h2>
             </div>
+
+            <div class="port">
+                <img src="assets/images/exercise.jpeg" alt="exercise picture">
+                <h2>Exercise Planner</h2>
+            </div>
+
+            <div class="port">
+                <img src="assets/images/kangaroo.jpeg" alt="kangaroo picture">
+                <h2>Hop to It!</h2>
+            </div>
+
+            <div class="port">
+                <img src="assets/images/productivity.jpeg" alt="office work picture">
+                <h2>Productivity Tracker</h2>
+            </div>
+
+            <div class="port">
+                <img src="assets/images/travel.jpeg" alt="sydney opera house">
+                <h2>Travel Journal</h2>
+            </div>
+
+        </section>
+
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Copyright© 2019 Steve Kindt</p>
         </div>
-        <!-- Footer -->
-        <article>
-            <footer>
-                <p>Copyright© 2019 Steve Kindt</p>
-            </footer>
-        </article>
+    </footer>
 </body>
 
 </html>
